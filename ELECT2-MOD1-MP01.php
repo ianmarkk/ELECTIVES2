@@ -89,5 +89,22 @@
     echo "5. $movies[4]<br />";
 ?>
 
+<h2>FAVORITE SONGS</h2>
+<?php
+    $songs = array
+    (
+        "Haruka by Yoasobi",
+        "Button by Penguin Research",
+        "Centimeter by Peggies",
+        "Beggin by Maneskin",
+        "Rude by Magic"
+    );
+    echo "1. $songs[0]<br />";
+    echo "2. $songs[1]<br />";
+    echo "3. $songs[2]<br />";
+    echo "4. $songs[3]<br />";
+    echo "5. $songs[4]<br />";
+?>
+
 </body>
 </html>
