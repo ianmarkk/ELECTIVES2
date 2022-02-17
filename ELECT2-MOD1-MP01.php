@@ -17,27 +17,20 @@
     define ("Day",27);
     define ("Year",1999);
     
-    echo "Name: ";
-    echo $fullname;
-    echo "<br> Birthday: ";
-    echo $month; echo " ",Day; echo ", ",Year;
-    echo "<br> Gender: ";
-    echo $gender;
-    echo "<br> Home Address: ";
-    echo $home;
-    echo "<br> Email Address: ";
-    echo $email;
+    echo "Name: ".$fullname;
+    echo "<br> Birthday: ".$month; echo " ",Day; echo ", ",Year;
+    echo "<br> Gender: ".$gender;
+    echo "<br> Home Address: ".$home;
+    echo "<br> Email Address: ".$email;
 ?>
 
 <h2>FAMILY BACKGROUND</h2>
 <?php
     $lastname = "Pilar";
-    echo "Father's Name: Joel A. ";
-    echo $lastname;
-    echo "<br> Mother's Name: Jenny A. ";
-    echo $lastname;
-    echo "<br> Sibling 1: Luise Andrei A. ";
-    echo $lastname;
+    
+    echo "Father's Name: Joel A. ".$lastname;
+    echo "<br> Mother's Name: Jenny A. ".$lastname;
+    echo "<br> Sibling 1: Luise Andrei A. ".$lastname;
 ?>
 
 <h2>EDUCATIONAL BACKGROUND</h2>
@@ -49,28 +42,17 @@
     $tertiary = "Angeles University Foundation";
     $course = "BS Computer Engineering";
 
-    echo "Primary School: ";
-    echo $school;
-    echo "<br> Date Graduated: Year ";
-    echo $primary;
-    echo "<br>";
+    echo "Primary School: ".$school;
+    echo "<br> Date Graduated: Year ".$primary;
     
-    echo "<p>Junior High School: ";
-    echo $school;
-    echo "<br> Date Graduated: Year ";
-    echo $jhs;
-    echo "<br>";
+    echo "<p>Junior High School: ".$school;
+    echo "<br> Date Graduated: Year ".$jhs;
 
-    echo "<p>Senior High School: ";
-    echo $school;
-    echo "<br> Date Graduated: Year ";
-    echo $shs;
-    echo "<br>";
+    echo "<p>Senior High School: ".$school;
+    echo "<br> Date Graduated: Year ".$shs;
 
-    echo "<p>Tertiary School: ";
-    echo $tertiary;
-    echo "<br> Course: "; 
-    echo $course; 
+    echo "<p>Tertiary School: ".$tertiary;
+    echo "<br> Course: ".$course; 
 ?>
 
 <h2>FAVORITE FOODS</h2>
